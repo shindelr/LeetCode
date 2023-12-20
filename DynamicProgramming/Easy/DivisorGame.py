@@ -1,12 +1,14 @@
 class Solution:
     def divisorGame(self, n: int) -> bool:
-        pass
+        if n % 2 == 0:
+            return True
+        return False
 
 
 def main():
     solution = Solution()
-    n = 2
     n = 3
+    n = 2
 
     print(solution.divisorGame(n))
 
